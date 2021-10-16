@@ -1,0 +1,17 @@
+[package]
+name = "hello-world"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+borsh = "0.9.1"
+borsh-derive = "0.9.1"
+solana-program = "=1.7.9"
+wasm-bindgen = "0.2.78"
+
+[features]
+no-entrypoint = []
+
+[dev-dependencies]
+solana-program-test = "=1.7.9"
+solana-sdk = "=1.7.9"
